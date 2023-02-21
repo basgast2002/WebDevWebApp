@@ -1,0 +1,16 @@
+﻿.gdpr-consent{
+    background: green;
+    display: none;
+}
+gdpr-consent-accept{
+    background: yellow;
+}
+gdpr-consent-reject {
+    background: red;
+}
+.gdpr-consent-description {
+    background: blue;
+}
+.gdpr-consent-title {
+    background: purple;
+}

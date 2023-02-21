@@ -1,0 +1,47 @@
+﻿.contactform * {
+    color: snow;
+    border-radius: 5px;
+}
+
+
+.contactform {
+    background-color: darkslategray;
+    
+    border: none;
+}
+.faccept {
+    background-color: dimgray;
+    border-radius: 5px;
+    border-color: greenyellow;
+    transition: background-color 0.5s ease-out 100ms
+}
+.faccept:hover{
+    background-color: green;
+}
+.freset {
+    background-color: dimgray;
+    border-radius: 5px;
+    border-color: orangered;
+    transition: background-color 0.5s ease-out 100ms
+}
+
+.freset:hover{
+background-color: red;
+}
+
+.fbuttons {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+    justify-content: space-between;
+    
+}
+
+.message-container {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5px;
+    
+}

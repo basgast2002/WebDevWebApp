@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = ViewData["Contact Page"];
+}
+<link rel="stylesheet" href="~/css/captcha.css">
+<link rel="stylesheet" href="~/css/Contact.css">
+
+
+<div class="contactform">
+	<h3>Contact Form</h3>
+    <form action="" method="post">
+
+        <div>
+        <label for="fname">naam</label>
+        <input type="text" id="fname" name="naam" placeholder="Uw naam.." required>
+        </div>
+
+        <div>
+        <label for="fonderwerp">onderwerp</label>
+        <input type="text" id="fonderwerp" name="onderwerp" maxlength="200" placeholder="Uw onderwerp.." required>
+        </div>
+
+        <div>
+        <label for="femail">E-mailadres</label>
+        <input type="email" id="femail" name="email" placeholder="Uw E-Mail.." required>
+        </div>
+
+        <div>
+            <div class="message-container">
+        <label for="fbericht" >bericht:</label>
+        <textarea id="fbericht" name="bericht" placeholder="Typ uw bericht.." maxlength="600" required></textarea>
+            </div>
+            </div>
+        <div class="fbuttons">
+        <button type="reset" class="freset">reset</button>
+        <button type="submit" class="faccept">verstuur</button>
+        </div>
+
+	</form>
+</div>
+	<div class="captcha-container">
+
+		<div id="user-input" class="inline">
+			<input type="text" id="submit"
+				   placeholder="Captcha code" />
+		</div>
+
+		<div class="inline" onclick="generate()">
+            <img src="~/images/rotate.png" width="30" height="30">
+			<div id="image" class="inline" selectable="False">
+			</div>
+		</div>
+
+        <button class="btn">  </button>
+
+	</div>
+
+        
+
+
+
+    
+
